@@ -49,14 +49,25 @@ $small-fw: 500;
     flex-wrap: wrap;
     gap: 1rem;
 
+
     .filter-button {
       flex: 1;
       padding: 0.5rem 1rem;
       background: $regular-color;
       border: $secondary-color $underline-width solid;
       border-radius: 0.5rem;
+      box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
       cursor: pointer;
       transition: all 0.075s linear;
+
+      &.active {
+        background: $secondary-color;
+        scale: 0.9;
+
+        & > p {
+          color: $regular-color;
+        }
+      }
 
       & > p {
         color: $secondary-color;
@@ -65,7 +76,6 @@ $small-fw: 500;
 
       &:hover {
         background: $secondary-color;
-        border: $regular-color $underline-width solid;
 
         & > p {
           color: $regular-color;
@@ -73,7 +83,7 @@ $small-fw: 500;
       }
 
       &:active {
-        transform: scale(0.95);
+        scale: 0.9;
       }
     }
   }
@@ -84,6 +94,9 @@ $small-fw: 500;
     row-gap: 2rem;
 
     .element {
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
 
       & > img {
         aspect-ratio: 16/8;
@@ -143,6 +156,7 @@ $small-fw: 500;
       
       .element {
         display: flex;
+        flex-direction: row;
         gap: 1rem;
 
         & > img {
