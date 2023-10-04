@@ -1,0 +1,139 @@
+{
+  "foxes": [
+    {
+      "name": "red-smile-fox",
+      "imageSrc": "../assets/Red-smile-fox-1.png",
+      "ImageAlt": "Red smile fox image 1",
+      "textWrapper": {
+        "title": "Red smile fox",
+        "likes": {
+          "imgSrc": "../assets/heart.png",
+          "imgAlt": "Heart icon",
+          "count": "2547"
+        }
+      },
+      "description": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+      "aHref": "#",
+      "aText": "Read more &#187;"
+    },
+
+    {
+      "name": "pet-smile-fox",
+      "imageSrc": "../assets/Pet-smile-fox-1.png",
+      "ImageAlt": "Pet smile fox image 1",
+      "textWrapper": {
+        "title": "Pet smile fox",
+        "likes": {
+          "imgSrc": "../assets/heart.png",
+          "imgAlt": "Heart icon",
+          "count": "9746"
+        }
+      },
+      "description": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+      "aHref": "#",
+      "aText": "Read more &#187;"
+    },
+
+    {
+      "name": "pet-smile-fox",
+      "imageSrc": "../assets/Pet-smile-fox-2.png",
+      "ImageAlt": "Pet smile fox image 2",
+      "textWrapper": {
+        "title": "Pet smile fox",
+        "likes": {
+          "imgSrc": "../assets/heart.png",
+          "imgAlt": "Heart icon",
+          "count": "1000"
+        }
+      },
+      "description": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+      "aHref": "#",
+      "aText": "Read more &#187;"
+    },
+
+    {
+      "name": "kit-smile-fox",
+      "imageSrc": "../assets/Kit-smile-fox-1.png",
+      "ImageAlt": "Kit smile fox image 1",
+      "textWrapper": {
+        "title": "Kit smile fox",
+        "likes": {
+          "imgSrc": "../assets/heart.png",
+          "imgAlt": "Heart icon",
+          "count": "1287"
+        }
+      },
+      "description": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+      "aHref": "#",
+      "aText": "Read more &#187;"
+    },
+
+    {
+      "name": "arctic-smile-fox",
+      "imageSrc": "../assets/Arctic-smile-fox-1.png",
+      "ImageAlt": "Arctic smile fox image 1",
+      "textWrapper": {
+        "title": "Arctic smile fox",
+        "likes": {
+          "imgSrc": "../assets/heart.png",
+          "imgAlt": "Heart icon",
+          "count": "4659"
+        }
+      },
+      "description": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+      "aHref": "#",
+      "aText": "Read more &#187;"
+    },
+
+    {
+      "name": "fennec-smile-fox",
+      "imageSrc": "../assets/Fennec-smile-fox-1.png",
+      "ImageAlt": "Fennec smile fox image 1",
+      "textWrapper": {
+        "title": "Fennec smile fox",
+        "likes": {
+          "imgSrc": "../assets/heart.png",
+          "imgAlt": "Heart icon",
+          "count": "9897"
+        }
+      },
+      "description": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+      "aHref": "#",
+      "aText": "Read more &#187;"
+    },
+
+    {
+      "name": "kit-smile-fox",
+      "imageSrc": "../assets/Kit-smile-fox-2.png",
+      "ImageAlt": "Kit smile fox image 2",
+      "textWrapper": {
+        "title": "Kit smile fox",
+        "likes": {
+          "imgSrc": "../assets/heart.png",
+          "imgAlt": "Heart icon",
+          "count": "0037"
+        }
+      },
+      "description": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+      "aHref": "#",
+      "aText": "Read more &#187;"
+    },
+
+    {
+      "name": "red-smile-fox",
+      "imageSrc": "../assets/Red-smile-fox-2.png",
+      "ImageAlt": "Red smile fox image 2",
+      "textWrapper": {
+        "title": "Red smile fox",
+        "likes": {
+          "imgSrc": "../assets/heart.png",
+          "imgAlt": "Heart icon",
+          "count": "1100"
+        }
+      },
+      "description": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+      "aHref": "#",
+      "aText": "Read more &#187;"
+    }
+  ]
+}
