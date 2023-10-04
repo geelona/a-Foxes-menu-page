@@ -47,13 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let FilterValue = 'all';
 
     FilterButtons.forEach((button) => {
+
         if (button.getAttribute('filter-data') == FilterValue) {
             button.classList.add('active')
             getFoxElements(FilterValue)
         }
-    })
 
-    FilterButtons.forEach((button) => {
         button.addEventListener('click', () => {
             FilterButtons.forEach((button) => {
                 button.classList.remove('active')
