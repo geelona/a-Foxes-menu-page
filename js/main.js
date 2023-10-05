@@ -24,18 +24,24 @@ async function getFoxElements(FilterValue) {
         const response = await fetch('../json/foxes.json')
         const data = await response.json()
 
+        let foxes = ''
+
         document.querySelector('.filter-elements-container').innerHTML = ''
         
         if (FilterValue !== 'all') {
            data.foxes.forEach((fox) => {
             if (fox.name == FilterValue) {
-                document.querySelector('.filter-elements-container').innerHTML += toHtml(fox)
+                foxes += toHtml(fox)
             }
            })
         } else {
             data.foxes.forEach((fox) => {
-                document.querySelector('.filter-elements-container').innerHTML += toHtml(fox)
+                foxes += toHtml(fox)
             })
+        }
+
+        if (foxes) {
+            document.querySelector('.filter-elements-container').insertAdjacentHTML('afterbegin', foxes)
         }
     } catch (error) {
         console.error(error)
