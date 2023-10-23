@@ -7,8 +7,6 @@ This project is a menu page for a collection of different foxes. You can sort an
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -41,16 +39,3 @@ View a variety of foxes in an organized menu.
 Sort and filter foxes by different criteria.
 Add your favorite foxes to your personal collection.
 Feel free to explore the application and enjoy the adorable foxes!
-
-Contributing
-If you would like to contribute to this project, please follow these steps:
-
-Fork the repository on GitHub.
-Create a new branch with a descriptive name for your feature or bug fix.
-Make your changes and commit them to your branch.
-Push your branch to your fork on GitHub.
-Open a pull request from your branch to the main branch of this repository.
-Please make sure to follow our Code of Conduct and Contribution Guidelines.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
